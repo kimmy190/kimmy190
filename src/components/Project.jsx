@@ -8,19 +8,19 @@ const Project = ({ onClose }) => {
           roles: [
             {title: "Python"}, 
             { title: "Django" },
-            { title: "PostgreSQL", bgColor: "bg-green-100 text-green-800" }, 
+            { title: "PostgreSQL" }, 
           ],
           year: "2024.01 – 2024.04",
           website: null,
-          description: "An API for a mental health chatbot startup Mhapy that can quantify and analyze clien&apos;s free responses for mental health assessments"
+          description: "An API for a mental health chatbot startup Mhapy that can quantify and analyze client&apos;s free responses for mental health assessments"
         },
         {
           project: "Petpal",
           roles: [
-            { title: "React", bgColor: "bg-blue-100 text-blue-800" },
-            { title: "TailwindCSS", bgColor: "bg-blue-100 text-blue-800" },
-            { title: "Django", bgColor: "bg-green-100 text-green-800" }, 
-            { title: "PostgreSQL", bgColor: "bg-green-100 text-green-800" }
+            { title: "React" },
+            { title: "TailwindCSS"},
+            { title: "Django" }, 
+            { title: "PostgreSQL"}
           ],
           year: "2023.09 –2023.12",
           website: "https://github.com/kimmy190/Petpal",

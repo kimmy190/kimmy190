@@ -10,6 +10,14 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        darkbrown:' #1E1E16', 
+        brown: '#36342E', 
+        beige: '#F0EADD', 
+        seablue: '#BADDD9', 
+
+      },
+      fontFamily: {
+        sans: ['Dosis', 'sans-serif'], // Set Dosis as the default font
       },
     },
   },

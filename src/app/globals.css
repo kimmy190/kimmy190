@@ -14,11 +14,110 @@
   }
 }
 
-body {
+/* body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    /* font-family: Arial, sans-serif; */
+    @apply font-sans;
+  }
+  
+.desktop-background {
+/* background-color: #BADDD9; */
+background: conic-gradient(#BADDD9 90deg,#F0EADD 0 180deg,#BADDD9 0 270deg,#F0EADD 0);
+background-size: 10px 10px;
+
+height: 100vh;
 }
+
+.contact{
+    color: #F0EADD;
+    /* border:2px #36342E; */
+     background-color:#36342E; 
+}
+
+.speech-bubble {
+    transform: translatey(0px);
+    animation: float 5s ease-in-out infinite;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 16px;
+    color: #F0EADD;
+    background-color: #36342E;
+    padding: 20px;
+    border-radius: 11px;
+    position: relative;
+    box-shadow: 20px 20px #BADDD9;
+    margin-right:40%;
+    /* font-family: "Baloo 2", cursive; */
+    /* // border: 1px solid $color-green; */
+  }
+
+  @media (min-width: 768px) {
+    .speech-bubble {
+      margin-right: 350px; /* Adjust for medium screen */
+    }
+  }
+
+  .speech-bubble:after {
+    transform: translatey(0px);
+    animation: float2 5s ease-in-out infinite;
+    content: ".";
+    font-weight: bold;
+    /* -webkit-text-fill-color: #36342E; */
+    /* text-shadow: 22px 22px #BADDD9; */
+    text-align: left;
+    font-size: 70px;
+    width: 65px;
+    height: 11px;
+    line-height: 30px;
+    border-radius: 11px;
+    background-color: #36342E;
+    position: absolute;
+    display: block;
+    bottom: -30px;
+    right: 10px;
+    z-index: -100;
+    box-shadow: 22px 22px #BADDD9;
+  }
+  
+  @keyframes float {
+    0% {
+      transform: translatey(0px);
+    }
+    50% {
+      transform: translatey(-20px);
+    }
+    100% {
+      transform: translatey(0px);
+    }
+  }
+  
+  @keyframes float2 {
+    0% {
+      line-height: 30px;
+      transform: translatey(0px);
+    }
+    55% {
+      transform: translatey(-20px);
+    }
+    60% {
+      line-height: 10px;
+    }
+    100% {
+      line-height: 30px;
+      transform: translatey(0px);
+    }
+  }
+  
+
 
 @layer utilities {
   .text-balance {

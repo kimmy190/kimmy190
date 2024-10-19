@@ -35,7 +35,9 @@ export default function Home() {
             {/* about amy kim */}
             <div className="file-icon" onClick={() => handleOpenModal('about')}>
                 {/* className="w-14 sm:w-16 lg:w-20" */}
+                {/* <img src="/images/computer.png" alt="computer" className="w-16 md:w-24 lg:w-28" /> */}
                 <img src="/images/computer.png" alt="computer" className="w-16 md:w-24 lg:w-28" />
+
                 <p className='text-base font-bold sm:text-lg lg:text-xl text-darkbrown'>amy kim</p>
             </div>
 

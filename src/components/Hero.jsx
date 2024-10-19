@@ -12,7 +12,7 @@ const Hero = () => {
         <div className="flex flex-col items-end p-4 space-y-6 sm:p-8">
         <p className='speech-bubble'>Nice to meet you!</p>
 
-            <h2 className='mb-5 font-bold text-7xl md:text-8xl text-darkbrown' >I’m Amy,</h2>
+            <h2 className='mb-5 font-bold text-7xl md:text-8xl text-darkbrown' >I&apos;m Amy,</h2>
             <p className='text-2xl font-bold text-right md:text-3xl text-darkbrown'>A developer focused on building impactful <br/> applications and contributing to the society</p>
 
             <div className="">

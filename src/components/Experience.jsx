@@ -12,7 +12,7 @@ const Experience = ({ onClose }) => {
         {title: "Content Writer", 
             company:"self-employed", 
             time:"2022.03 – 10", 
-            description: "As a content writer for a digital NFT newsletter NOV, I helped grow the subscriber base by over 1,000 through weekly newsletters covering a variety of topics. I conducted A/B testing on titles, which led to a 3-5% increase in the newsletter's opening rate. I also ensured accuracy and proper language in articles written by teammates."
+            description: "As a content writer for a digital NFT newsletter NOV, I helped grow the subscriber base by over 1,000 through weekly newsletters covering a variety of topics. I conducted A/B testing on titles, which led to a 3-5% increase in the newsletter&apos;s opening rate. I also ensured accuracy and proper language in articles written by teammates."
         }
     ]
 

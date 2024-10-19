@@ -12,7 +12,7 @@ const Project = ({ onClose }) => {
           ],
           year: "2024.01 – 2024.04",
           website: null,
-          description: "An API for a mental health chatbot startup Mhapy that can quantify and analyze client’s free responses for mental health assessments"
+          description: "An API for a mental health chatbot startup Mhapy that can quantify and analyze clien&apos;s free responses for mental health assessments"
         },
         {
           project: "Petpal",

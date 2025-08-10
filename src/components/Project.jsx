@@ -4,6 +4,17 @@ import ProjectSection from './ProjectSection';
 const Project = ({ onClose }) => {
     const projectData = [
         {
+          project: "Browsercast",
+          roles: [
+            {title: "HTML"}, 
+            { title: "CSS" },
+            { title: "Javascript" }, 
+          ],
+          year: "2025.01 – 2025.04",
+          website: "https://github.com/gvwilson/browsercast",
+        description:"Developed a custom audio playback bar and a preview slidebar with scrollable thumbnails and autoplay using HTML, CSS, and JavaScript. Conducted usability testing with target user groups and improved features based on feedback."        
+    },
+        {
           project: "AI chatbot API",
           roles: [
             {title: "Python"}, 

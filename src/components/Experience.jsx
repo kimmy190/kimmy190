@@ -4,6 +4,16 @@ import '../styles/modal.css';
 
 const Experience = ({ onClose }) => {
     const experienceData = [
+        {title: "Web Developer", 
+            company:"University of Toronto", 
+            time:"2025.06 – 07", 
+         description:"I developed a responsive Quarto based course website and converted graduate course lecture materials from PowerPoint to Quarto slides, enabling online access and interactive viewing. Alongside, I redesigned and updated a research lab website by adding visual content, optimizing layouts for different screen sizes, and implementing professor-specified design improvements", 
+        }, 
+        {title: "UI/UX Tester", 
+            company:"Tech Valet", 
+            time:"2024.12 – 2025.01", 
+        description:"Conducted usability testing for a website by simulating dual user experiences to identify bugs and UI/UX improvement areas, with a focus on accessibility and ease of use for elderly users. Led testing sessions with 5–6 participants from two distinct user groups, gathered qualitative feedback, and summarized findings into a detailed report with actionable recommendations."        
+    }, 
         {title: "C Private Tutor", 
             company:"self-employed", 
             time:"2023.09 – 12", 

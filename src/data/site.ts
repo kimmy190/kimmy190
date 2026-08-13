@@ -89,12 +89,12 @@ export const experience: ExperienceEntry[] = [
     start: "June 2026",
     end: "Present",
     highlights: [
-      "Identified that professional interpreters were losing time hunting for terminology across scattered spreadsheets and notes, and scoped a full-stack vocabulary management platform to fix it",
-      "Architected a Flask and PostgreSQL REST API with structured CRUD endpoints and robust error handling for managing words",
-      "Cut bulk data onboarding from ~10 hours of manual entry to under a minute with a CSV import/export pipeline using batch insertion",
-      "Engineered a React frontend with instant client-side search supporting Korean and English queries, filtering, and sorting, letting interpreters browse 2,000+ terms without a single page reload",
+      "Identified that professional interpreters were losing time hunting for terminology across scattered spreadsheets and notes, and scoped a full-stack vocabulary management platform to organize and share terminology in one place",
+      "Architected a the application across React, Flask, and PostgreSQL, building REST APIs and relational data models for vocabulary lists, categories, user-owned resources, authentication, and bulk CSV workflows", 
+      "Reworked the application's most expensive database workflows after profiling performance bottlenecks, reducing CSV import latency by ~96% with batched transactions and cutting database round trips by ~91% by eliminating N+1 queries with SQLAlchemy eager loading and aggregation", 
+      "Built authentication around JWT access and refresh tokens, CSRF protection, Google OAuth, and ownership-based permissions, then introduced Redis-backed token revocation so logging out invalidates tokens server-side instead of relying solely on removing them from the browser",
     ],
-    stack: ["Flask", "PostgreSQL", "React", "TailwindCSS", "Postman"],
+    stack: ["Python/Flask", "PostgreSQL", "React", "TailwindCSS", "Redis"],
   },
   {
     role: "Web Developer",

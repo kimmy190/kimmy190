@@ -87,7 +87,7 @@ export const experience: ExperienceEntry[] = [
     org: "Kelly Services",
     location: "Toronto, ON",
     start: "June 2026",
-    end: "Present",
+    end: "August 2026",
     highlights: [
       "Identified that professional interpreters were losing time hunting for terminology across scattered spreadsheets and notes, and scoped a full-stack vocabulary management platform to organize and share terminology in one place",
       "Architected a the application across React, Flask, and PostgreSQL, building REST APIs and relational data models for vocabulary lists, categories, user-owned resources, authentication, and bulk CSV workflows", 
